@@ -1,13 +1,12 @@
-from sqlalchemy import column, Integer, String, DateTime
+from sqlalchemy import Column, Integer, String, DateTime
 from sqlalchemy.sql import func
 from database import Base
 
 class Task(Base):
     __tablename__ = "tasks"
-    id = column(Integer, primary_key=True, autoincrement=True)
-    title = column(String, nullable=False)
-    description = column(String, nullable=True)
-    status = column(String, default="pending")
-    create_date = column(DateTime, default=func.now())
-    due_date = column(DateTime, nullable=True)
-    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    title = Column(String, nullable=False)
+    description = Column(String, nullable=True)
+    status = Column(String, default="pending")
+    create_date = Column(DateTime, default=func.now())
+    due_date = Column(DateTime, nullable=True)

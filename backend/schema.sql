@@ -12,7 +12,6 @@ CREATE TABLE tasks (
 
 CREATE INDEX idx_tasks_status ON tasks(status);
 
--- ============================================
 INSERT INTO tasks (title, description, status, due_date) VALUES
     ('Set up project repository',  'Initialize GitHub repo and push initial code',      'completed',  '2025-03-01'),
     ('Design database schema',     'Define tables, fields, and relationships',           'completed',  '2025-03-02'),
