@@ -51,11 +51,16 @@ Then move into the project folder:
 ## Backend Setup
 Navigate to the backend folder:
 ```cd backend```
+
 Create a virtual environment:
 ```python -m venv venv```
+
 Activate the virtual environment:
+
 ```#windows source venv/scripts/activate```
+
 ```#Mac/Linux source venv/bin/activate```
+
 you will see (venv) appear in your terminal, this means the virtual environment is active.
 
 Install the required packages 
