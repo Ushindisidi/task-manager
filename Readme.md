@@ -42,13 +42,13 @@ python 3.10+
 Node.js 16+
 npm
 
-## Clone the Repository
-1. open your terminal and run
+## 1. Clone the Repository
+ open your terminal and run
 ```git clone https://github.com/Ushindisidi/task-manager```
 Then move into the project folder:
 ```cd task-manager```
 
-## Backend Setup
+## 2. Backend Setup
 Navigate to the backend folder:
 ```cd backend```
 Create a virtual environment:
